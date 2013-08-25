@@ -6,3 +6,5 @@ MIT : 6.096 course.. see the lecture notes at http://goo.gl/fTALR to brush up cp
 unix programming tools intro from stanford http://goo.gl/7Ltu5P.. refer for compiler flags etc.. 
 
 essential c from stanford : http://goo.gl/LH0hg
+
+MORE USEFUL STUFF : http://cslibrary.stanford.edu/ AND http://goo.gl/OhKILx
