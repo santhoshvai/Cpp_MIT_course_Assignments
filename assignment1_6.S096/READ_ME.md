@@ -19,15 +19,17 @@ You can compile them with this command (though it won't work at first; see Probl
 
 You can run the resulting program with two arguments: a number, then a string (in quotes):
 
-./fibeverse 6 'what a trip that was!' 
-8 
-was! that trip a what
+>./fibeverse 6 'what a trip that was!' 
+>8 
+>was! that trip a what
 The first line it prints is the 6th fibonacci number. The second line is the string you provided, with the words reversed.
 
 Problem 1
+
 Unfortunately, the code doesn't compile as-is! Fix the compile errors and warnings. gcc should produce no output with the above command when you are done.
 
 Problem 2
+
 I can't decide whether I want a program that computes Fibonacci numbers or a program that reverses strings! Let's modify fibeverse so that it can be compiled into either.
 
 Use the preprocessor macros we taught in class to make it so that I can choose which program it is at compile time.
