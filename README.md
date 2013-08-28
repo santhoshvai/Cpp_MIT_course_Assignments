@@ -9,4 +9,4 @@ essential c [PDF] from stanford : http://goo.gl/LH0hg
 
 MORE USEFUL STUFF : http://cslibrary.stanford.edu/ AND http://goo.gl/OhKILx
 
-**UPDATE** : this course has been updated by MIT http://goo.gl/dYOCej
+**UPDATE** : 2013 course has been updated by MIT in OCW http://goo.gl/dYOCej
