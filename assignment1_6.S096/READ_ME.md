@@ -41,6 +41,8 @@ When I compile it with this command, it should compute the Fibonacci number but 
 
 *gcc -Wall -std=c99 -DFIBONACCI fibeverse.c reverse.c fibonacci.c -o fibonacci*
 
+>DFIBONACCI means define fibonacci
+
 Then I can run it like this:
 
 *./fibonacci 8*

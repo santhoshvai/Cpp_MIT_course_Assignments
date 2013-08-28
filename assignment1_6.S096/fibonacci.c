@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "fibonacci.h"
 void print_fib(int n) {
 	printf("%d\n", fib(n));
 }
