@@ -1,41 +1,53 @@
-Lab 3 Exercise
+Lab 4 Exercises
 ==========================
 
-The primary goal of this lab period is to introduce pointers, addresses, arrays, and manual memory management.
+The primary goal of this lab period is to introduce debugging tools, and use of unions/structs.
 
 **Exercise 1**
+Download and install Valgrind on your system, if it's not already. To test if you have Valgrind, run valgrind --version. It should print the version of Valgrind that is installed.
 ```c++
+#include <stdlib.h>
 #include <stdio.h>
-
-void square(int num) {
-	num = num * num;
+ 
+void fn()
+{
+	int* x = malloc(10 * sizeof(int));
+	printf("%d",*x);
+	x[10] = 0;
 }
-
-int main() {
-	int x = 4;
-	square(x);
-	printf("%d\n", x);
+ 
+int main()
+{
+	fn();
 	return 0;
 }
 ```
-Take a look at the above code. In lecture, I pointed out that function variables are passed by value, not reference. So this program will currently print out 4. Compile the code to confirm this.
-
-Use pointers and addresses to modify the code so x is passed by reference instead and is squared. This will involve changes to the square function that does not involve changing void to int and giving square a return statement. Make sure your code compiles with -Wall flag without warnings.
+There are 3 sources of memory errors in this code. Run valgrind to determine what they are (although I suspect you can probably tell from the code anyways).
 
 **Exercise 2**
+Use a union to print the individual bytes of an int. (Hint: Recall the size of ints and other data types.)
 
-While coding up this exercise, listening to Hakuna Matata, I was so worry-free I forgot how to use C!
-
-Fix the following code so that it creates a string str and copies "hakuna matata!" into it.
+**Exercise 3**
+Determine how much memory is required for each of the structs below. How much of that memory is padding between the members?
 ```c++
-#include <stdio.h>
+struct X
+{
+	short s; 
+	int i; 
+	char c;
+};
 
-void main() {
-	char str[];
-	???(, "hakuna matata!"); // this line should copy "hakuna matata!"
-	 // into our char array
-	printf("%s\n", str);
-	// Anything else?
-}
+struct Y
+{
+	int i;
+	char c;
+	short s;
+};
+
+struct Z
+{
+	int   i;
+	short s;
+	char  c;
+};
 ```
-After confirming your fix works, change the code to use heap memory instead of the stack. Remember, everything you malloc you must also free!
