@@ -1,4 +1,4 @@
-[StackOverflow](http://stackoverflow.com/questions/119123/why-isnt-sizeof-for-a-struct-equal-to-the-sum-of-sizeof-of-each-member) Refer this on doubt
+[StackOverflow](http://stackoverflow.com/questions/119123/why-isnt-sizeof-for-a-struct-equal-to-the-sum-of-sizeof-of-each-member) <---  Refer this on doubt
 
 [Visual representation](http://www.c-faq.com/struct/align.html) <--- diagrams
 
