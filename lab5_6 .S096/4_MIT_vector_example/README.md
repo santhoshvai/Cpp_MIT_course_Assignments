@@ -1,0 +1,1 @@
+[Classes MIT SLIDE](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/lecture-notes/MIT6_096IAP11_lec06.pdf) <--- A very good slide which has all the basics covered for c++ classes
