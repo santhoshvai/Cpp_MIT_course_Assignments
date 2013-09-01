@@ -59,7 +59,7 @@ $ ./p1_grades
 
 In this problem, you will be converting a class that is specialized for integers into a templated class that can handle many types, including integers and structs. You will create a templated class named List that correctly initializes, manages, and de-allocates an array of a specified length. This is a nice class because the normal C arrays we've seen do not keep track of their length at runtime, but the class we're building will do that for us!
 
-[p2_templates (CPP)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/lectures-and-assignments/c-memory-management/resize.c)
+[p2_templates (CPP)](http://web.mit.edu/6.s096/www/assignments/5/p2_templates.cpp)
 
 When you're finished writing your templated List class, you should change your main() function to this code below (this is the same code that's in the starter file, p2_templates.cpp):
 
