@@ -12,3 +12,6 @@ MORE USEFUL STUFF : [stanford CS_Library](http://cslibrary.stanford.edu/) AND [A
  [2013 MIT : 6.S096](http://goo.gl/dYOCej) course has been updated by MIT in OCW 
  
  [Practical Programming in C MIT: 6.087](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm)  Havent checked this out.. might be useful too??
+
+
+Programming Abstractions C++ (http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e)... Looks interesting
