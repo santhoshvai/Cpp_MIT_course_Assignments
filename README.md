@@ -20,4 +20,4 @@ MORE USEFUL STUFF : [stanford CS_Library](http://cslibrary.stanford.edu/) AND [A
 
 [Parallel Programming for Multicore Machines Using OpenMP and MPI](http://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-950-parallel-programming-for-multicore-machines-using-openmp-and-mpi-january-iap-2010/index.htm)
 
-[how to become a master oops designer??](http://research.cs.queensu.ca/~ahmed/home/teaching/CISC322/F09/files/Slides_Spiros_Patterns.pdf)
+[how to become a master oops designer??](http://research.cs.queensu.ca/~ahmed/home/teaching/CISC322/F09/files/Slides_Spiros_Patterns.pdf)[pdf]
