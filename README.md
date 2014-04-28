@@ -14,6 +14,6 @@ MORE USEFUL STUFF : [stanford CS_Library](http://cslibrary.stanford.edu/) AND [A
  [Practical Programming in C MIT: 6.087](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/index.htm)  Havent checked this out.. might be useful too??
 
 
-Programming Abstractions C++ (http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e)... Looks interesting
+[Programming Abstractions C++](http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e)... Looks interesting
 
-Introduction to C Memory Management and C++ Object-Oriented Programming(http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/)
+[Introduction to C Memory Management and C++ Object-Oriented Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/)
