@@ -17,3 +17,5 @@ MORE USEFUL STUFF : [stanford CS_Library](http://cslibrary.stanford.edu/) AND [A
 [Programming Abstractions C++](http://see.stanford.edu/see/courseinfo.aspx?coll=11f4f422-5670-4b4c-889c-008262e09e4e)... Looks interesting
 
 [Introduction to C Memory Management and C++ Object-Oriented Programming](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-088-introduction-to-c-memory-management-and-c-object-oriented-programming-january-iap-2010/)
+
+[Parallel Programming for Multicore Machines Using OpenMP and MPI](http://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-950-parallel-programming-for-multicore-machines-using-openmp-and-mpi-january-iap-2010/index.htm)
