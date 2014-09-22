@@ -1,7 +1,9 @@
 C++_MIT_course_Assignments
 ==========================
 
-[MIT : 6.096 course](http://goo.gl/fTALR).. see the lecture notes at  to brush up cpp .. very useful
+[MIT : 6.096 course - 2011](http://goo.gl/fTALR).. see the lecture notes at  to brush up cpp .. very useful
+
+[MIT : 6.096 course - 2014](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/)
 
 [unix programming tools intro](http://goo.gl/7Ltu5P) [PDF] from stanford .. refer for compiler flags etc.. 
 
