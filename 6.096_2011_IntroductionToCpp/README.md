@@ -1,3 +1,6 @@
+Introduction to C++
+===================
+
 # Assignments
 * Problem Set 1 [(PDF)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn01.pdf) solution [(PDF)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_sol01.pdf)
 * Problem Set 2 [(PDF)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_assn02.pdf) solution [(PDF)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-096-introduction-to-c-january-iap-2011/assignments/MIT6_096IAP11_sol02.pdf)
