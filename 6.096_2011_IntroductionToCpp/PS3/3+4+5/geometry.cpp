@@ -1,0 +1,109 @@
+# include "geometry.h"
+
+// Point
+Point::Point(const int X=0, const int Y=0) {
+  x = X;
+  y = Y;
+}
+int Point::getX() const {
+  return x;
+}
+int Point::getY() const {
+  return y;
+}
+void Point::setX(const int X) {
+  x = X;
+}
+void Point::setY(const int Y) {
+  y = Y;
+}
+void PointArray::PointArray(const Point points[], const int size) {
+  _size = size;
+  ptr = new Point[_size];
+  for (int i=0; i<size; ++i) {
+    ptr[i] = points[i];
+  }
+}
+// PointArray
+void PointArray::PointArray(const PointArray& pv) {
+  // Any code in the PointArray class has access to
+  // private variables like size and points
+  _size = pv._size;
+  ptr = new Point[_size];
+  for (int i=0; i<size; ++i) {
+    ptr[i] = pv.ptr[i];
+  }
+}
+void PointArray::~PointArray() {
+  delete[] ptr;
+}
+/* allocates a new array of size n, copies the first min(previous array size, n) existing
+elements into it, and deallocates the old array. */
+void PointArray::resize(int n) {
+  Point pts = new Point[n];
+  int minSize = n ^ ((_size ^ n) & -(_size < n)); // minimum of two integers, bithack.
+  for (int i=0; i<minSize; ++i) {
+    pts[i] = ptr[i];
+  }
+  delete[] ptr;
+  _size = n;
+  ptr = pts;
+}
+// Add a Point to the end of the array
+void PointArray::push_back(const Point &p) {
+  resize ( _size + 1);
+  ptr[ _size - 1] = p;
+}
+// Insert a Point at some arbitrary position (subscript) of the array, shifting the elements
+// past position to the right
+void PointArray::insert(const int position, const Point &p) {
+  resize ( _size + 1);
+  // shifting previous elems to right
+  for (int i=position+1; i<_size;++i) {
+    ptr[i]=ptr[i-1];
+  }
+  ptr[position] = p;
+}
+// Remove the Point at some arbitrary position (subscript) of the array, shifting the
+// remaining elements to the left
+void PointArray::remove(const int pos) {
+  if( pos >= 0 && pos < size ) {
+    for (int i=pos; i<_size-1;++i) {
+      ptr[i] = ptr[i+1];
+    }
+    resize(_size-1);
+  }
+}
+const int PointArray::getSize() const {
+  return _size;
+}
+void PointArray::clear() {
+  resize(0);
+}
+// Get a pointer to the element at some arbitrary position in the array, where positions
+// start at 0 as with arrays
+Point *PointArray::get(const int position) {
+  return pos >= 0 && pos < size ? points + position : NULL;
+}
+const Point *PointArray::get(const int position) const {
+  return pos >= 0 && pos < size ? points + position : NULL ;
+}
+// polygon
+int Polygon::n = 0; // remember to do this
+
+Polygon::Polygon(const Point pts[], const int size) : points(pts, size){
+  ++numPolygons;
+}
+Polygon::Polygon (const PointArray &pa) : points(pa) {
+  ++numPolygons;
+}
+// rectangle
+Point constructorPoints [4];
+
+Point *updateConstructorPoints ( const Point &p1 , const Point &p2 ,const Point &p3, const Point &p4 = Point (0 ,0)) {
+  constructorPoints[0] = p1;
+  constructorPoints[1] = p2;
+  constructorPoints[2] = p3;
+  constructorPoints[3] = p4;
+  return constructorPoints ;
+}
