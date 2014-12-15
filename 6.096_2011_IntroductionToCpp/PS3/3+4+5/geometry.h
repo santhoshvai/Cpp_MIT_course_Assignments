@@ -1,3 +1,5 @@
+#ifndef _GEOMETRY_H
+#define _GEOMETRY_H
 class Point {
   int x, y;
 
@@ -5,8 +7,8 @@ public:
   Point(const int X=0, const int Y=0);
   int getX() const;
   int getY() const;
-  void setX( const int X);
-  void setY( const int Y);
+  void setX(const int X);
+  void setY(const int Y);
 };
 
 class PointArray {
@@ -55,3 +57,4 @@ public:
   Triangle(const Point &a, const Point &b, const Point &c);
   virtual double area() const ;
 };
+#endif  // _GEOMETRY_H
