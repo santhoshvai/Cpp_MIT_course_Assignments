@@ -1,11 +1,23 @@
 C++_MIT_course_Assignments
 ==========================
 
-[MIT : 6.096 course - 2011](http://goo.gl/fTALR).. see the lecture notes at  to brush up cpp .. very useful
+[MIT : 6.096 course - 2011](http://goo.gl/fTALR)
 
 [MIT : 6.S096 course - 2013](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)
 
 [MIT : 6.S096 course - 2014](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-effective-programming-in-c-and-c-january-iap-2014/)
+
+Helpline!
+=========
+
+* [GDB Basics](https://courseware.stanford.edu/pg/pages/view/347705/cs107-guide-to-gdb-basics)
+* [Valgrind Basics](https://courseware.stanford.edu/pg/pages/view/332678/cs107-guide-to-valgrind)
+* [MakeFile Basics](https://courseware.stanford.edu/pg/pages/view/347714/cs107-guide-to-makefiles)
+* [Basic Unix tools](https://courseware.stanford.edu/pg/pages/view/347716/cs107-guide-to-unix-dev-tipstricks)
+* [C standard library functions](https://courseware.stanford.edu/pg/pages/view/347717/cs107-guide-to-c-standard-library-functions)
+
+Other Interesting Pages to read
+===============================
 
 [unix programming tools intro](http://goo.gl/7Ltu5P) [PDF] from stanford .. refer for compiler flags etc..
 
@@ -23,10 +35,3 @@ MORE USEFUL STUFF : [stanford CS_Library](http://cslibrary.stanford.edu/) AND [A
 [Parallel Programming for Multicore Machines Using OpenMP and MPI](http://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-950-parallel-programming-for-multicore-machines-using-openmp-and-mpi-january-iap-2010/index.htm)
 
 [how to become a master oops designer??](http://research.cs.queensu.ca/~ahmed/home/teaching/CISC322/F09/files/Slides_Spiros_Patterns.pdf)[pdf]
-
-# Helpline!
-* [GDB Basics](https://courseware.stanford.edu/pg/pages/view/347705/cs107-guide-to-gdb-basics)
-* [Valgrind Basics](https://courseware.stanford.edu/pg/pages/view/332678/cs107-guide-to-valgrind)
-* [MakeFile Basics](https://courseware.stanford.edu/pg/pages/view/347714/cs107-guide-to-makefiles)
-* [Basic Unix tools](https://courseware.stanford.edu/pg/pages/view/347716/cs107-guide-to-unix-dev-tipstricks)
-* [C standard library functions](https://courseware.stanford.edu/pg/pages/view/347717/cs107-guide-to-c-standard-library-functions)
