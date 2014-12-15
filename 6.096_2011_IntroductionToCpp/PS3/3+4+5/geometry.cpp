@@ -135,6 +135,5 @@ double Triangle::area() const {
   c = std::sqrt(dx20 * dx20 + dy20 * dy20);
 
   double s = (a + b + c) / 2;
-
   return std::sqrt( s * (s-a) * (s-b) * (s-c) );
 }
