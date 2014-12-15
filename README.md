@@ -16,6 +16,7 @@ Helpline!
 * [Basic Unix tools](https://courseware.stanford.edu/pg/pages/view/347716/cs107-guide-to-unix-dev-tipstricks)
 * [C standard library functions](https://courseware.stanford.edu/pg/pages/view/347717/cs107-guide-to-c-standard-library-functions)
 * [Travis CI with google test](https://github.com/easylogging/easyloggingpp/blob/master/.travis.yml) + [Basics gTest](https://avneetkhasla.wordpress.com/2013/04/12/google-c-testing-frameworkgoogle-test-gtest/)
+* [cmake tutorial MIT](http://projects.csail.mit.edu/cgi-bin/wiki/view/SLS/Cmake)
 
 Other Interesting Pages to read
 ===============================
