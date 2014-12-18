@@ -21,6 +21,10 @@ Helpline!
 Other Interesting Pages to read
 ===============================
 
+[Effective C++ in an Embedded Environment](http://htrd.su/wiki/_media/zhurnal/2013/03/28/scott_meyers._effective_c_in_an_embedded_environment/effectcppemb.pdf)[PDF Slides] from scott meyers.. must read..
+
+[Embedded Systems Programming](http://www.bogotobogo.com/cplusplus/files/embed/25_embedded.ppt)[PDF Slides].. by Bjarne Stroustrup.. + [Modern ES programming challenges](http://www.bogotobogo.com/cplusplus/embeddedSystemsProgramming.php) .. lovely read!
+
 [unix programming tools intro](http://goo.gl/7Ltu5P) [PDF] from stanford .. refer for compiler flags etc..
 
 [essential c](http://goo.gl/LH0hg) [PDF] from stanford
